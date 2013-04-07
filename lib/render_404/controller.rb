@@ -3,6 +3,7 @@ module Render404
   module Controller
     def render_404
       @meta_title = I18n.t("render_404.page_not_found")
+      @no_sidebar = true
       locale = I18n.locale
       respond_to do |format|
         format.html {
