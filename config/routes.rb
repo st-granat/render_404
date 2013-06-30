@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  match "*request", :to => "errors#routing_error"
+  get "*request", :to => "errors#routing_error"
 end
