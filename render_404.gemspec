@@ -4,6 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'render_404/version'
 
 Gem::Specification.new do |gem|
+  gem.license       = "MIT"
   gem.name          = "render_404"
   gem.version       = Render404::VERSION
   gem.authors       = ["Андрей [ws70]"]
