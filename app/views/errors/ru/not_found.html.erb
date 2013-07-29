@@ -1,4 +1,7 @@
-<%# breadcrumbs "root", ["Страница не найдена"] %>
+<% if Object.const_defined?("UsefulHelpers") %>
+  <% breadcrumbs "root", ["Страница не найдена"] %>
+  <% page_title "Страница не найдена" %>
+<% end %>
 <p>Запрошенному вами URL не соответствует ни одна страница сайта.</p>
 <p>Возможные причины:</p>
 <ul class="sitemap">
