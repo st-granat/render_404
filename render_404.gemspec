@@ -11,7 +11,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["railscode@gmail.com"]
   gem.description   = "Auto rendering 404 errors for Rails App"
   gem.summary       = "Auto rendering 404 errors for Rails App"
-  gem.homepage      = "https://github.com/vav/render_404"
+  gem.homepage      = "https://github.com/st-granat/render_404"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
